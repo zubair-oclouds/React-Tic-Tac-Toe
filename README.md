@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+4. [How to Play](#how-to-play)
+5. [Game Rules](#game-rules)
+6. [Contributing](#contributing)
+7. [License](#license)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to the Tic-Tac-Toe Game! This is a simple implementation of the classic Tic-Tac-Toe (or Noughts and Crosses) game, which can be played by two players.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Tic-Tac-Toe](tic_tac_toe.png)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Two-player gameplay.
+- Clear and easy-to-understand interface.
+- Simple command-line interface.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Python 3.6 or higher
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/zubair-oclouds/Tic-Tac-Toe.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change into the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    cd tic-tac-toe
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Run the game:
 
-## Learn More
+    ```bash
+    python tic_tac_toe.py
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Play
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. The game is played on a 3x3 grid.
 
-### Code Splitting
+2. Players take turns to place their symbol (X or O) on the grid.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. The player who succeeds in placing three of their symbols in a row, column, or diagonal wins the game.
 
-### Analyzing the Bundle Size
+4. If the grid is completely filled without a winner, the game ends in a draw.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Follow the on-screen prompts to make your moves.
 
-### Making a Progressive Web App
+## Game Rules
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Player 1 starts the game and places 'X' on the board.
 
-### Advanced Configuration
+2. Player 2 follows, placing 'O' on the board.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Players take turns until the game is won or ends in a draw.
 
-### Deployment
+4. The game announces the winner or a draw and gives you the option to play again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. We welcome your contributions!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Enjoy playing Tic-Tac-Toe!
